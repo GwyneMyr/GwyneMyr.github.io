@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Alas'En Wiki</title>
+  <link rel="stylesheet" href="../Styles/headerStyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/ui-darkness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+  <script src="../headerscript.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../Logos/AlasenProjectLogo.png" type="image/icon type">
+</head>
+<body>
+<div id="topMenu_block" class>
+  <ul class="d-flex justify-content-around flex-wrap m-0">
+    <li id="campagnaheader" class="elementlink">Campagna</li>
+    <li id="solisinheader" class="elementlink">Solis'in</li>
+    <li id="strumentiheader" class="elementlink">Strumenti</li>
+    <li class="elementlink">text 4</li>
+    <li class="elementlink">text 5</li>
+    <li class="elementlink">text 6</li>
+  </ul>
+</div>
+
+<header class="header container-fluid">
+  <div class="menu-search-container d-flex justify-content-center">
+    <div class="menu-search-input">
+      <form action="">
+        <a href="#">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </a>
+        <input class="menu-search-input" type="text"  placeholder="Что ищим?">
+      </form>
+      <a class="menu-search-close" href="#">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class="row menu-wrap flex-nowrap justify-content-between align-items-center">
+    <div class="col-4">
+      <a class="text-muted" href="#" id="topMenu">
+        <svg class="ham hamRotate" viewBox="0 0 100 100" width="60">
+          <path class="line top"
+                d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+          <path class="line middle"
+                d="m 70,50 h -40" />
+          <path class="line bottom"
+                d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+        </svg>
+      </a>
+    </div>
+    <div class="col-4 text-center d-flex justify-content-center">
+      <img class="logo" src="../Logos/Solisin%20logo.png" alt="testo alternativo">
+      <a class="header-logo h3 align-items-center m-0 d-flex " id="homelogo" href="home.html">Alas'En</a>
+    </div>
+    <div class="col-4 text-center d-flex justify-content-center">
+      <div class="theme flex">
+        <div class="dark flex">
+          <ion-icon name="moon-outline"></ion-icon>
+        </div>
+        <div class="light active flex">
+          <ion-icon name="sunny-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+</body>
+</html>
