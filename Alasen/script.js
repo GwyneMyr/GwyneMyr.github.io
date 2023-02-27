@@ -65,7 +65,7 @@ $( document ).ready(function() {
         $(location).attr('href', 'Timeline.html');
     });
     $('#lore1').click(function (){
-        $(location).attr('href', 'Lorecontent.html');
+        $(location).attr('href', 'Faglia.html');
     });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
