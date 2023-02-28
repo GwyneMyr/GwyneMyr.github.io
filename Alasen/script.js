@@ -64,8 +64,17 @@ $( document ).ready(function() {
     $('#timelinehome').click(function (){
         $(location).attr('href', 'Timeline.html');
     });
+    $('#mondohome').click(function (){
+        $(location).attr('href', 'Mondo.html');
+    });
     $('#lore1').click(function (){
         $(location).attr('href', 'Faglia.html');
+    });
+    $('#lore2').click(function (){
+        $(location).attr('href', 'Congiunzione.html');
+    });
+    $('#lore3').click(function (){
+        $(location).attr('href', 'Convergenza.html');
     });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
@@ -280,6 +289,9 @@ $( document ).ready(function() {
     let a = tabellaUltra.split("\n")
     let b = tabellaBase.split("\n")
     $('.prova').append(a[0]);
+
+
+
 
 
 });
