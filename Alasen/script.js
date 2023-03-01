@@ -40,6 +40,7 @@ $( document ).ready(function() {
 
 
 
+
     $('#campagnaheader').click(function (){
         $(location).attr('href', 'Campagna.html');
     });
@@ -75,6 +76,18 @@ $( document ).ready(function() {
     });
     $('#lore3').click(function (){
         $(location).attr('href', 'Convergenza.html');
+    });
+    $('#pg1').click(function (){
+        $(location).attr('href', 'Baltasar.html');
+    });
+    $('#pg2').click(function (){
+        $(location).attr('href', 'Ringo.html');
+    });
+    $('#pg3').click(function (){
+        $(location).attr('href', 'Luna.html');
+    });
+    $('#pg4').click(function (){
+        $(location).attr('href', 'Katara.html');
     });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
