@@ -89,6 +89,15 @@ $( document ).ready(function() {
     $('#pg4').click(function (){
         $(location).attr('href', 'Katara.html');
     });
+    $('#pg5').click(function (){
+        $(location).attr('href', 'Meredith.html');
+    });
+    $('#pg6').click(function (){
+        $(location).attr('href', 'Lenigrast.html');
+    });
+    $('#pg7').click(function (){
+        $(location).attr('href', 'Fischietto.html');
+    });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
     });
