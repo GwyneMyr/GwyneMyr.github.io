@@ -70,6 +70,7 @@ header {
     stroke-dashoffset: -68px;
 }
 #topMenu_block {
+    z-index: 99;
     background: #331401;
     position: absolute;
     left: 0;

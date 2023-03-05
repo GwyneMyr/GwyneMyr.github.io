@@ -824,9 +824,11 @@ button {
 #mycard6 .text-block p{font-weight:300; width:60%}
 #mycard6 .text-block button{transition: all .35s cubic-bezier(.37,.26,.35,1);border:4px solid #fff; padding:10px; background:transparent;font-family: 'Rubik', sans-serif;text-transform:uppercase; font-weight:700; cursor:pointer;}
 #mycard6 .text-block button:hover{background: rgba(201, 155, 14, 0.6)
-
-
 }
+#ringoo{
+    width: 70% !important;
+}
+
 
 
 .shine {

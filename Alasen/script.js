@@ -36,6 +36,7 @@ $( document ).ready(function() {
     $('.card').hide();
     $('#time2').hide();
     $('#tit1').hide();
+    $('.true-desc').hide();
 
 
 
@@ -138,12 +139,15 @@ $( document ).ready(function() {
         $("#time2").slideToggle();
         $("#tit1").slideToggle();
     });
+    $('#era1').click(function (){
+        $("#desc1").slideToggle();
+    });
 
 
     $('#us').click(function (){
         var back = ["blue","gray","red","green", "orange", "purple"];
         var rand = back[Math.floor(Math.random() * back.length)];
-        $('#ultracard').css('background',rand);
+       // $('#ultracard').css('background',rand);
         $('#ultracard').show();
         $('#num1').hide();
         $('#eff1').hide();
@@ -152,7 +156,7 @@ $( document ).ready(function() {
        $('#eff1').empty("slow").append(a[x-1]).show('slow');
     });
     $('#ms').click(function (){
-        var back = ["blue","gray","red","green", "orange", "purple"];
+        var back = ["radial-gradient(#8fd37f, #00e724)","radial-gradient(#1fe4f5, #3fbafe)","radial-gradient(#dc4c4c, #f10000)","radial-gradient(#eeaf7b, #ffc400)", "radial-gradient(#f588d8, #c0a3e5)"];
         var rand = back[Math.floor(Math.random() * back.length)];
         $('#magiacard').css('background',rand);
         $('#magiacard').show();
