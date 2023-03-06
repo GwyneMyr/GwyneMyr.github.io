@@ -1,3 +1,4 @@
+
 $( document ).ready(function() {
 
     $('.card-container').css('transform','translateY(0.701463px) rotateX(-0.561762deg) rotateY(-1.40293deg)' );
@@ -68,6 +69,12 @@ $( document ).ready(function() {
     });
     $('#mondohome').click(function (){
         $(location).attr('href', 'Mondo.html');
+    });
+    $('#potenzehome').click(function (){
+        $(location).attr('href', 'Potenze.html');
+    });
+    $('#pow1').click(function (){
+        $(location).attr('href', 'Eclipsia.html');
     });
     $('#lore1').click(function (){
         $(location).attr('href', 'Faglia.html');
