@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="jquery.fittext.js"></script>
   <script>
     $(function(){
       $("#header").load("header.html");
@@ -27,7 +29,7 @@
 <div id="header"></div>
 <div class="container-sm h-100">
   <div class="row ">
-    <h2 class="text-center d-table" style="font-size: 40px; font-family: Quintessential,serif; color: #ff6200">Ringo</h2>
+    <h2 class="text-center d-table" style="font-size: 40px; font-family: Quintessential,serif; color: #000000">Impero d'Eclipsia</h2>
     <div class="colmio text-center d-table">
       <div class="container">
         <div id="myCarousel" class="imgpg carousel slide " data-ride="carousel" data-interval="false">
@@ -35,20 +37,9 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img class="imgpg img-responsive d-table" alt="" src="../Img/RingoI.jpeg">
+              <img class="imgpg img-responsive d-table" alt="" src="../Img/Eclipsia.jpg">
             </div>
 
-            <div class="item">
-              <img src="../Img/RingoI2.jpeg">
-            </div>
-
-            <div class="item">
-              <img src="../Img/RingoI3.jpeg">
-            </div>
-
-            <div class="item">
-              <img src="../Img/RingoI4.jpeg">
-            </div>
           </div>
 
           <!-- Left and right controls -->
@@ -61,62 +52,55 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni</div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Generali</div>
         <div class="info align-items-center d-flex m-0 " style="font-size:6vw; font-size-adjust: inherit">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
             Nome
           </div>
           <div style="font-size: 15px;" class="col-8 ps-2 ms-4">
-            Rialdon Golarossa Dolcevita
+            Impero d'Eclipsia
+          </div>
+        </div>
+        <div class="info align-items-center d-flex m-0 ">
+          <div style="font-weight: bold;font-size: 20px;" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
+            Capo di Stato
+          </div>
+          <div style="font-size: 15px;" class="col-8 ps-2 ms-4">
+            Imperatore Von Anders Silvanus
           </div>
         </div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Razza
+            Gendarmeria
           </div>
           <div style="font-size: 15px" class="col-8 ps-2 ms-4">
-            Elfo (Eladrin)
+            Cavalieri del Cerchio
+          </div>
+        </div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Sociali</div>
+        <div class="info align-items-center d-flex m-0 ">
+          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
+            Continente
+          </div>
+          <div style="font-size: 15px" class="col-8 ps-2 ms-4">
+            Eclipsia
           </div>
         </div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Classe
+            Capitale
           </div>
           <div style="font-size: 15px" class="col-8 ps-2 ms-4">
-            Stregone (Magia Selvaggia)
+            Exandria
           </div>
         </div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Storiche</div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Età
+            Fondato
           </div>
           <div style="font-size: 15px" class="col-8 ps-2 ms-4">
-            83
-          </div>
-        </div>
-        <div class="info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Allineamento
-          </div>
-          <div style="font-size: 15px" class="col-8 ps-2 ms-4">
-            Caotico Buono
-          </div>
-        </div>
-        <div class="  info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Provenienza
-          </div>
-          <div style="font-size: 15px" class="col-8 ps-2 ms-4">
-            <img class="logo" src="../Logos/Solis.png" alt="testo alternativo">
-            Solis
-          </div>
-        </div>
-        <div class="info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Stato
-          </div>
-          <div style="font-size: 15px; color: #00ff06;" class="col-8 ps-2 ms-4">
-            Vivo
+
           </div>
         </div>
       </div>
