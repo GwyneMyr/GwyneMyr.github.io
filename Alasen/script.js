@@ -99,6 +99,12 @@ $( document ).ready(function() {
     $('#pg7').click(function (){
         $(location).attr('href', 'Fischietto.html');
     });
+    $('#pg8').click(function (){
+        $(location).attr('href', 'Kaeru.html');
+    });
+    $('#pgX').click(function (){
+        $(location).attr('href', 'Grij.html');
+    });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
     });
@@ -141,6 +147,9 @@ $( document ).ready(function() {
     });
     $('#era1').click(function (){
         $("#desc1").slideToggle();
+    });
+    $('#era2').click(function (){
+        $("#desc2").slideToggle();
     });
 
 

@@ -829,6 +829,33 @@ button {
     width: 70% !important;
 }
 
+#mycard9{
+    max-width: 700px;
+    max-height: 350px;
+    animation: backAn 60s infinite;
+    color:#fff;
+    padding:30px;
+    width:120%;
+    height:100%;
+    position:absolute;
+    z-index:1;
+    background:url(https://i.pinimg.com/564x/c0/cf/10/c0cf10f13866ddcafa1b9ba2179544d7.jpg) 100% bottom;
+    box-shadow:
+            0px 45px 100px rgba(0, 0, 0, .4),
+            inset 0 0 0 1000px rgba(255, 255, 255, 0.42);
+}
+
+#mycard9 .text-block{position:relative;z-index:2;text-shadow: 0px 3px 10px rgba(0, 0, 0, .7)}
+#mycard9 .text-block h1{font-family: 'Rubik', sans-serif; font-size:3em; margin:0; text-transform:uppercase; font-weight:700;}
+#mycard9 .text-block h1 small{font-size:.4em;color:#ccc;position:relative;bottom:10px}
+#mycard9 .text-block h3{margin:0;font-weight:700;}
+#mycard9 .text-block p{font-weight:300; width:60%}
+#mycard9 .text-block button{transition: all .35s cubic-bezier(.37,.26,.35,1);border:4px solid #fff; padding:10px; background:transparent;font-family: 'Rubik', sans-serif;text-transform:uppercase; font-weight:700; cursor:pointer;}
+#mycard9 .text-block button:hover{background: rgba(38, 38, 38, 0.42)
+
+
+}
+
 
 
 .shine {
