@@ -76,6 +76,9 @@ $( document ).ready(function() {
     $('#pow1').click(function (){
         $(location).attr('href', 'Eclipsia.html');
     });
+    $('#pow2').click(function (){
+        $(location).attr('href', 'Solis.html');
+    });
     $('#lore1').click(function (){
         $(location).attr('href', 'Faglia.html');
     });

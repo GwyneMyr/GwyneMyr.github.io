@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="jquery.fittext.js"></script>
   <script>
     $(function(){
       $("#header").load("header.html");
@@ -27,15 +29,15 @@
 <div id="header"></div>
 <div class="container-sm h-100">
   <div class="row ">
-    <h2 class="text-center d-table" style="font-size: 40px; font-family: Quintessential,serif; color: #0dc200">Kaeru</h2>
+    <h2 class="text-center d-table" style="font-size: 40px; font-family: Quintessential,serif; color: #000000">Sacro Impero di Solis</h2>
     <div class="colmio text-center d-table">
-      <div class="container">
+      <div id="dio" class="container">
         <div id="myCarousel" class="imgpg carousel slide " data-ride="carousel" data-interval="false">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img class="imgpg img-responsive d-table" alt="" src="../Img/Kaerux.png">
+              <img class="imgpg img-responsive d-table" alt="" src="../Img/Solis.jpg">
             </div>
 
           </div>
@@ -50,70 +52,55 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni</div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Generali</div>
         <div class="info align-items-center d-flex m-0 " style="font-size:6vw; font-size-adjust: inherit">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
             Nome
           </div>
+          <div style="font-size: 15px;" class=" fs-4 col-8 ps-2 ms-4">
+            Sacro Impero di Solis
+          </div>
+        </div>
+        <div class="info align-items-center d-flex m-0 ">
+          <div style="font-weight: bold;font-size: 20px;" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
+            Capo di Stato
+          </div>
           <div style="font-size: 15px;" class="fs-4 col-8 ps-2 ms-4">
-            Qīngwā
+            Imperatore Kaiden Sharuk
           </div>
         </div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Razza
+            Gendarmeria
           </div>
           <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            Grung (Verde)
+            Le Corone
+          </div>
+        </div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Sociali</div>
+        <div class="info align-items-center d-flex m-0 ">
+          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
+            Continente
+          </div>
+          <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
+            Solis
           </div>
         </div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Classe
+            Capitale
           </div>
           <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            Monaco
+            Marcadia
           </div>
         </div>
+        <div class="infoHead text-center justify-content-center align-items-center ">Informazioni Storiche</div>
         <div class="info align-items-center d-flex m-0 ">
           <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Sottoclasse
+            Fondazione
           </div>
-          <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            Via del Kensei
-          </div>
-        </div>
-        <div class="info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Età
-          </div>
-          <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            1
-          </div>
-        </div>
-        <div class="info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Allineamento
-          </div>
-          <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            Caotico Buono
-          </div>
-        </div>
-        <div class="  info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Provenienza
-          </div>
-          <div style="font-size: 15px" class="fs-4 col-8 ps-2 ms-4">
-            <img class="logo" src="../Logos/Eclipsia.png" alt="testo alternativo">
-            Eclipsia
-          </div>
-        </div>
-        <div class="info align-items-center d-flex m-0 ">
-          <div style="font-weight: bold; font-size: 20px" class=" fs-3 col-4 align-items-center text-start pe-4 ps-3 col-1">
-            Stato
-          </div>
-          <div style="font-size: 15px; color: #00ff06;" class="fs-4 col-8 ps-2 ms-4">
-            Vivo
+          <div style="font-size: 15px" class=" fs-4 col-8 ps-2 ms-4">
+            1308 Post Dono
           </div>
         </div>
       </div>

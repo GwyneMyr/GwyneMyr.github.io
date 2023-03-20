@@ -321,7 +321,143 @@ body{
 area:hover{
     background-color: red;
 }
-@media screen and (min-width: 500px) {
+
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    #dio{
+
+    }
+    .colmio{
+        flex: 0 0 auto;
+        margin: auto;
+    }
+    .imgpg{
+        display: flex;
+        max-width: 100%;
+        height: 100%;
+        border: 5px solid #B88846;
+
+        border-bottom: 1px solid #ffffff;
+    }
+    .infoHead{
+        display: flex;
+        height: 65px;
+        width: 100%;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 30px;
+        text-align: left;
+        color: #ffffff;
+        background-color: #B88846;
+    }
+    .info{
+        display: flex;
+        height: 65px;
+        width: 100%;
+        border: 12px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 30px;
+        text-align: left;
+        color: #000000;
+    }
+    .container-sm{
+        margin:20px;
+        padding: 20px 20px;
+        background-color: white;
+        border-radius: 4px;
+        position: relative;
+        height: auto;
+        width: 90%;
+        border: 25px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+    }
+    .container-xxl{
+        margin:20px;
+        padding: 20px 20px;
+        background-color: white;
+        width: 120%;
+        height: auto;
+        border-radius: 4px;
+        border: 17px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+    }
+    .PageElement{
+        height: 100px;
+        border: 20px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 50px;
+        text-align: left;
+        color: #caab86;
+        cursor: pointer;
+    }
+    .PageElement2{
+        height: 100px;
+        border: 12px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 30px;
+        text-align: left;
+        color: #caab86;
+        cursor: pointer;
+    }
+    .PageElement:hover{
+        height: 100px;
+        border: 20px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 50px;
+        text-align: left;
+        color: #caab86;
+        cursor: pointer;
+        background-color: #ebe8eb;
+    }
+
+    .PageElement2:hover{
+        height: 100px;
+        border: 12px solid #B88846;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 30px;
+        text-align: left;
+        color: #caab86;
+        cursor: pointer;
+        background-color: #ebe8eb;
+    }
+    .PageElement img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .PageElementImg{
+        width: 8%;
+        float:left
+    }
+    .imgcamp{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .col-6mio{
+        flex: 0 0 auto;
+        width: 50%;
+
+    }
+    .rowmio{
+        flex-shrink: 0;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-top: var(--bs-gutter-y);
+    }
+    p{
+        font-size: 10px !important;
+    }
+    .col-8{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 1001px) {
     .colmio{
         flex: 0 0 auto;
         margin: auto;
@@ -784,9 +920,16 @@ h6{
     background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
     background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
 
-    z-index: 5;
+    z-index: -1;
 }
 
+.era{
+    cursor: pointer;
+}
+
+.era:hover{
+    background-color: #dedede;
+}
 .timeline li {
     padding: 1em 0;
 }
@@ -847,7 +990,7 @@ h6{
 .direction-r .flag:before {
     position: absolute;
     top: 50%;
-    right: -40px;
+    right: -36px;
     content: ' ';
     display: block;
     width: 12px;
@@ -860,7 +1003,7 @@ h6{
 }
 
 .direction-r .flag:before {
-    left: -40px;
+    left: -36px;
 }
 
 .direction-l .flag:after {
@@ -923,6 +1066,7 @@ h6{
 }
 
 .true-desc {
+    z-index: 999;
     text-align: left !important;
     border: solid rgba(89, 89, 89, 0.65);
     border-radius: 10px;
@@ -931,6 +1075,7 @@ h6{
     font-size: 1em;
     font-style: italic;
     line-height: 1.5em;
+    background-color: white;
 }
 
 .direction-r .desc {
@@ -941,9 +1086,8 @@ h6{
     margin: 1em 0 0 0.75em;
 }
 
-.direction-l:hover,
-.direction-r:hover{
-    background-color: rgba(189, 189, 189, 0.24);
+.flag:hover{
+    background-color: rgb(189, 189, 189);
 }
 
 /* ================ Timeline Media Queries ================ */
@@ -980,7 +1124,7 @@ h6{
     .direction-r .flag:before {
         position: absolute;
         top: -30px;
-        left: 50%;
+        left: 52%;
         content: ' ';
         display: block;
         width: 12px;
@@ -988,7 +1132,7 @@ h6{
         margin-left: -9px;
         background: #fff;
         border-radius: 10px;
-        border: 4px solid rgb(58, 58, 58);
+        border: 4px solid rgb(255, 176, 80);
         z-index: 10;
     }
 
