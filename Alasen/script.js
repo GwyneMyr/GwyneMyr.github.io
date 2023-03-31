@@ -58,6 +58,9 @@ $( document ).ready(function() {
     $('#solisinhome').click(function (){
         $(location).attr('href', 'Pg.html');
     });
+    $('#npchome').click(function (){
+        $(location).attr('href', 'Npc.html');
+    });
     $('#magiahome').click(function (){
         $(location).attr('href', 'Magia.html');
     });
@@ -87,6 +90,9 @@ $( document ).ready(function() {
     });
     $('#lore3').click(function (){
         $(location).attr('href', 'Convergenza.html');
+    });
+    $('#npc1').click(function (){
+        $(location).attr('href', 'Berwick.html');
     });
     $('#pg1').click(function (){
         $(location).attr('href', 'Baltasar.html');
