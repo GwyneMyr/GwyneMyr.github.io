@@ -94,6 +94,9 @@ $( document ).ready(function() {
     $('#npc1').click(function (){
         $(location).attr('href', 'Berwick.html');
     });
+    $('#npc2').click(function (){
+        $(location).attr('href', 'Dom.html');
+    });
     $('#pg1').click(function (){
         $(location).attr('href', 'Baltasar.html');
     });
