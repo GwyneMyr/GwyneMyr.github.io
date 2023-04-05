@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
 
+
     $('.card-container').css('transform','translateY(0.701463px) rotateX(-0.561762deg) rotateY(-1.40293deg)' );
     $('#1').hide();
     $('#2').hide();
@@ -96,6 +97,9 @@ $( document ).ready(function() {
     });
     $('#npc2').click(function (){
         $(location).attr('href', 'Dom.html');
+    });
+    $('#npc3').click(function (){
+        $(location).attr('href', 'Ross.html');
     });
     $('#pg1').click(function (){
         $(location).attr('href', 'Baltasar.html');
