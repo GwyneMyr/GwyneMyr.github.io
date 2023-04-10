@@ -1,7 +1,11 @@
+$("#darkM").click(function(){
+    alert("The paragraph was clicked.");
+});
+
 
 $( document ).ready(function() {
 
-
+    $(".container-sm").css("background-color", "white");
     $('.card-container').css('transform','translateY(0.701463px) rotateX(-0.561762deg) rotateY(-1.40293deg)' );
     $('#1').hide();
     $('#2').hide();
@@ -100,6 +104,9 @@ $( document ).ready(function() {
     });
     $('#npc3').click(function (){
         $(location).attr('href', 'Ross.html');
+    });
+    $('#npc4').click(function (){
+        $(location).attr('href', 'Tallis.html');
     });
     $('#pg1').click(function (){
         $(location).attr('href', 'Baltasar.html');
