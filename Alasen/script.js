@@ -138,6 +138,9 @@ $( document ).ready(function() {
     $('#pgX').click(function (){
         $(location).attr('href', 'Grij.html');
     });
+    $('#dadihome').click(function (){
+        $(location).attr('href', 'dice.html');
+    });
     $('#btn0').click(function (){
         $("#cap0").slideToggle();
     });
