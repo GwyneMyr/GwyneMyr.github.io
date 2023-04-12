@@ -108,6 +108,9 @@ $( document ).ready(function() {
     $('#npc4').click(function (){
         $(location).attr('href', 'Tallis.html');
     });
+    $('#npc5').click(function (){
+        $(location).attr('href', 'Xamarin.html');
+    });
     $('#pg1').click(function (){
         $(location).attr('href', 'Baltasar.html');
     });
