@@ -1284,3 +1284,103 @@ input {
     transform: rotate3d(0, 1, 0.5, 360deg);
     transition: 1.5s;
 }
+
+/* default Flyout styles */
+[data-flyout],
+[data-flyout] * {
+    box-sizing: border-box;
+}
+[data-flyout] {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: -300px;
+    color: #000000;
+    font-size: 12pt;
+    text-align: left;
+    opacity: 0;
+    z-index: 500;
+    pointer-events: none;
+    transition: right .2s ease-in-out,
+    opacity .2s ease-in-out;
+}
+[data-flyout] div:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+[data-flyout] img {
+    max-width: 210px;
+    width: auto;
+    float: left;
+}
+[data-flyout] h3 {
+    color: #111;
+    margin: 0 0 5px 0;
+    line-height: 1.2;
+    font-size: 12pt;
+    letter-spacing: -.02em;
+}
+[data-flyout] p {
+    margin: 0;
+}
+[data-flyout] [data-button] {
+    width: auto;
+    display: block;
+    margin: 15px 0 0 0 !important;
+}
+
+/* hide Headline, Image, Article Headline, & Description by default  */
+[data-flyout] h2,
+[data-flyout] h3,
+[data-flyout] img,
+[data-flyout] p {
+    display: none;
+}
+
+/* reveal Image and Article Headline if browser is <300px */
+@media (min-width: 300px) {
+    [data-flyout] {
+        padding-top: 15px;
+    }
+    [data-flyout] img,
+    [data-flyout] h3 {
+        display: block;
+    }
+}
+
+/* reveal Description if browser is <400px */
+@media (min-width: 400px) {
+    [data-flyout] img {
+    }
+    [data-flyout] p {
+        display: block;
+    }
+}
+
+/* set max-width on Flyout and reveal Headline if browser is <500px */
+@media (min-width: 500px) {
+    [data-flyout] {
+        max-width: 400px;
+    }
+    [data-flyout] h2 {
+        display: block;
+    }
+}
+
+/* display Flyout when page is scrolled <90% */
+@element html, body and (min-scroll-y: 90%) {
+    [data-flyout] {
+        right: 0;
+        pointer-events: all;
+        opacity: 1;
+    }
+}
+
+.testross{
+    padding: 15px 15px 15px 18px;
+    background-image: url("../Logos/testoross.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
