@@ -213,7 +213,7 @@ $( document ).ready(function() {
     });
 
     $('#ROSS').ready(function (){
-        let x = Math.floor((Math.random() * 5) + 1);
+        let x = Math.floor((Math.random() * 10) + 1);
         $('#ROSS').empty("slow").append(c[x-1]).show('slow');
     });
 
@@ -247,9 +247,14 @@ $( document ).ready(function() {
 
     let vettRoss = "...AAAAAAAAAAAAAAAAAAAAAHHHHH!!\n" +
         "Hai letto la documentazione sulle <a href='Faglia.html'>faglie</a>? L'impero ha fatto un buon lavoro!\n" +
-        "Perchè uccidere un membro del <a href='Pg.html'>party</a> quando puoi tradirlo?\n" +
+        "Perchè uccidere un membro del <a href='Pg.html'>gruppo</a> quando puoi tradirlo?\n" +
         "<a href='Baltasar.html'>Baltasar</a> frociazzo!\n" +
-        "<a href='Fischietto.html'>Maestro</a>? Sei tu?\n"
+        "<a href='Fischietto.html'>Maestro</a>? Sei tu?\n" +
+        "Ma quindi venite da <a href='Solis.html'>Solis</a>?\n" +
+        "A volte penso che forse mi manca <a href='Grij.html'>Grij</a>... Ma poi ci ripenso.\n" +
+        "L'impero sa tutto del nostro <a href='Campagna.html'>viaggio</a>? Forse qualcuno ci ha seguito.\n" +
+        "Cosa era quella cosa in cielo a Nomad? Nient'altro che una <a href='Convergenza.html'>Convergenza</a>!\n" +
+        "Mai mangiare <a href='Congiunzione.html'>bacche rosse</a>.\n"
 
 
     let tabellaUltra = "Massimizzi i danni di ogni attacco potendo dire solo \"SAI CHI SONO? RINGOOO\". Dura per 30 secondi\n" +
