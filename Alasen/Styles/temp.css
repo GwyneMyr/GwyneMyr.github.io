@@ -1296,7 +1296,7 @@ input {
     bottom: 0;
     right: -300px;
     color: #000000;
-    font-size: 11pt;
+    font-size: 12pt;
     text-align: left;
     opacity: 0;
     z-index: 500;
@@ -1340,50 +1340,31 @@ input {
 
 /* reveal Image and Article Headline if browser is <300px */
 @media (min-width: 300px) {
-    #popupross{
-        flex-wrap: nowrap;
-    }
     [data-flyout] {
         padding-top: 15px;
     }
     [data-flyout] img,
     [data-flyout] h3 {
-        max-width: 170px;
         display: block;
-    }
-    .testross{
-        max-width: 59%;
     }
 }
 
 /* reveal Description if browser is <400px */
 @media (min-width: 400px) {
-    #popupross{
-        flex-wrap: nowrap;
-    }
     [data-flyout] img {
     }
     [data-flyout] p {
         display: block;
     }
-    .testross{
-        max-width: 59%;
-    }
 }
 
 /* set max-width on Flyout and reveal Headline if browser is <500px */
 @media (min-width: 500px) {
-    #popupross{
-        flex-wrap: nowrap;
-    }
     [data-flyout] {
         max-width: 400px;
     }
     [data-flyout] h2 {
         display: block;
-    }
-    .testross{
-        max-width: 59%;
     }
 }
 
@@ -1397,19 +1378,9 @@ input {
 }
 
 .testross{
-    word-wrap: break-word;
-    padding: 15px 45px 15px 25px;
+    padding: 15px 15px 15px 18px;
     background-image: url("../Logos/testoross.png");
-    width: 65%;
+    width: 100%;
     height: 100%;
     background-size: cover;
-}
-
-#Ross_IMG{
-    transition:0.3s;
-}
-
-#Ross_IMG:active{
-    transform: translateY(-20%);
-    transition: 0.3s;
 }

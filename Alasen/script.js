@@ -212,6 +212,16 @@ $( document ).ready(function() {
         $('#eff2').empty("slow").append(b[x-1]).show('slow');
     });
 
+    $('#ROSS').ready(function (){
+        let x = Math.floor((Math.random() * 5) + 1);
+        $('#ROSS').empty("slow").append(c[x-1]).show('slow');
+    });
+
+    $('#Ross_IMG').on("click", function(){
+        $("#Ross_IMG").attr("src", "../Img/RossI.jpeg")
+        $('#ROSS').empty("slow").append("AHIA!").show('slow');
+    })
+
     var $poster = $('.card-container'),
         $shine = $('.shine'),
         w = $(window).width(),
@@ -234,6 +244,12 @@ $( document ).ready(function() {
 
         $poster.css('transform', transformPoster);
     });
+
+    let vettRoss = "...AAAAAAAAAAAAAAAAAAAAAHHHHH!!\n" +
+        "Hai letto la documentazione sulle <a href='Faglia.html'>faglie</a>? L'impero ha fatto un buon lavoro!\n" +
+        "Perchè uccidere un membro del <a href='Pg.html'>party</a> quando puoi tradirlo?\n" +
+        "<a href='Baltasar.html'>Baltasar</a> frociazzo!\n" +
+        "<a href='Fischietto.html'>Maestro</a>? Sei tu?\n"
 
 
     let tabellaUltra = "Massimizzi i danni di ogni attacco potendo dire solo \"SAI CHI SONO? RINGOOO\". Dura per 30 secondi\n" +
@@ -357,8 +373,10 @@ $( document ).ready(function() {
         "You gain a +4 INT for the next 3 days, but lose -2 INT for the next 6 days.\n" +
         "You summon a banquet of food and everyone in a 100ft radius, centred on you, sits down to eat together until the food is gone, regardless of whether they were hostile.\n" +
         "Everyone in a 100ft radius rolls on the wild magic table."
+
     let a = tabellaUltra.split("\n")
     let b = tabellaBase.split("\n")
+    let c = vettRoss.split("\n")
     $('.prova').append(a[0]);
 
 
