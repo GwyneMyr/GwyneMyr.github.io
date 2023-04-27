@@ -48,14 +48,8 @@ $( document ).ready(function() {
 
 
 
-    $('#campagnaheader').click(function (){
-        $(location).attr('href', 'Campagna.html');
-    });
     $('#campagnahome').click(function (){
         $(location).attr('href', 'Campagna.html');
-    });
-    $('#strumentiheader').click(function (){
-        $(location).attr('href', 'Strumenti.html');
     });
     $('#strumentihome').click(function (){
         $(location).attr('href', 'Strumenti.html');
@@ -65,6 +59,9 @@ $( document ).ready(function() {
     });
     $('#npchome').click(function (){
         $(location).attr('href', 'Npc.html');
+    });
+    $('#sfondihome').click(function (){
+        $(location).attr('href', 'Sfondi.html');
     });
     $('#magiahome').click(function (){
         $(location).attr('href', 'Magia.html');
