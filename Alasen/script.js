@@ -217,6 +217,7 @@ $( document ).ready(function() {
     $('#Ross_IMG').on("click", function(){
         $("#Ross_IMG").attr("src", "../Img/RossI.jpeg")
         $('#ROSS').empty("slow").append("AHIA!").show('slow');
+        $('#popupross').delay(700).hide("slow");
     })
 
     var $poster = $('.card-container'),
