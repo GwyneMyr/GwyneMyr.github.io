@@ -132,8 +132,11 @@ $( document ).ready(function() {
     $('#pg8').click(function (){
         $(location).attr('href', 'Kaeru.html');
     });
-    $('#pgX').click(function (){
+    $('#pg9').click(function (){
         $(location).attr('href', 'Grij.html');
+    });
+    $('#pg10').click(function (){
+        $(location).attr('href', 'Isaac.html');
     });
     $('#dadihome').click(function (){
         $(location).attr('href', 'dice.html');
