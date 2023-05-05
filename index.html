@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
+      <link rel="canonical" href="https://GwyneMyr.github.io/GwyneMyr.github.io/" />
+     <link rel="manifest" href="/GwyneMyr.github.io/manifest.webmanifest">
     <script>
         window.location = "Alasen/Pages/home.html";
     </script>
 </head>
 <body>
-
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/GwyneMyr.github.io/sw.js',
+          {scope: '/GwyneMyr.github.io/'}
+        )
+      }
+  </script>
 </body>
 </html>
