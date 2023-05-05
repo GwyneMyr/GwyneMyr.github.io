@@ -12,6 +12,8 @@
   <script src="../script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="../Logos/AlasenProjectLogo.png" type="image/icon type">
+      <link rel="canonical" href="https://GwyneMyr.github.io/GwyneMyr.github.io/" />
+     <link rel="manifest" href="/GwyneMyr.github.io/manifest.webmanifest">
   <script>
     $(function(){
       $("#header").load("header.html");
@@ -20,6 +22,14 @@
   <script src='//cdnjs.cloudflare.com/ajax/libs/eqcss/1.5.1/EQCSS.min.js'></script>
 </head>
 <body>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/GwyneMyr.github.io/sw.js',
+          {scope: '/GwyneMyr.github.io/'}
+        )
+      }
+  </script>
 <div id="header"></div>
 
 <div class="container-sm">
