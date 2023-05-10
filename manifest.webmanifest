@@ -10,8 +10,8 @@
   "start_url": "/GwyneMyr.github.io/",
 
   // colours of the app as displayed in the installer
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#331401",
+  "theme_color": "#331401",
 
   // Display of the app. 
   //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
