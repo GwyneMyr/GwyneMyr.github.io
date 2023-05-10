@@ -15,4 +15,5 @@ var VERSION = 'version_00';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
+  `${GHPATH}/Alasen`
 ]
