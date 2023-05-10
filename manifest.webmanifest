@@ -1,7 +1,7 @@
 {
   // Name of the app and short name in case there isn't enough space
   "name": "Alas'En Wiki",
-  "short_name": "ALSNW",
+  "short_name": "Alas'En",
   // Description what your app is
   "description": "Github Page as a Progressive Web App",
 
